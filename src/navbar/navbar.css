@@ -6,5 +6,12 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: rgba(6, 6, 19, 0.685);
+    color: rgba(59, 59, 75, 0.685);
+}
+
+#about-me-btn:hover {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(27, 27, 36, 0.822);
 }

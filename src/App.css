@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:800px;
+  padding-bottom: 60px;
 }
 
 .App-logo {
@@ -31,4 +32,13 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  padding: 10px;
+  opacity: .6;
 }
