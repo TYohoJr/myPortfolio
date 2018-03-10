@@ -22,7 +22,6 @@ export default class App extends Component {
   }
 
   aboutMe() {
-    console.log("aboutMe was ran")
     this.setState({
       showProject: "",
       pageDescription:
@@ -33,7 +32,6 @@ export default class App extends Component {
   }
 
   showBikeApp() {
-    console.log("showBikeApp was ran")
     this.setState({
       pageDescription: <h1>Bike App</h1>,
       showProject: <BikeApp />
@@ -42,7 +40,6 @@ export default class App extends Component {
   }
 
   showDineamite() {
-    console.log("showDineamite was ran")
     this.setState({
       showProject: <Dineamite />,
       pageDescription: <p>Dineamite Info</p>
