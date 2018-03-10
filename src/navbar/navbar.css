@@ -1,0 +1,10 @@
+#navbar {
+   font-size: 22px;
+}
+
+#about-me-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgba(6, 6, 19, 0.685);
+}

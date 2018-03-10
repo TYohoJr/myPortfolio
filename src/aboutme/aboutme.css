@@ -1,0 +1,18 @@
+#my-pic {
+    height: 200px;
+    padding-bottom: 35px;
+    border-radius: 80px 80px;
+}
+
+#about-me-div {
+    font-family: serif;
+}
+
+#about-me-header {
+    padding-bottom: 40px
+}
+
+#about-me-txt {
+    font-size: 20px;
+    font-style: oblique;
+}
