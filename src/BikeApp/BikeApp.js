@@ -11,7 +11,7 @@ export default class BikeApp extends Component {
                     Group work finished on 2-23-18 and I make commits periodically</p>
                 <a href="https://stark-scrubland-94670.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                 <br />
-                <p id="live-site-info">(use "test" for both the username and password, or feel free to sign up!)</p>
+                <p>(use "test" for both the username and password, or feel free to sign up!)</p>
                 <a href="https://github.com/TYohoJr/bikeApp2" target="_blank" rel="noopener noreferrer">Base Code</a>
                 <br />
                 <a href="https://github.com/TYohoJr/bikeapp2backend" target="_blank" rel="noopener noreferrer">Server Code</a>
