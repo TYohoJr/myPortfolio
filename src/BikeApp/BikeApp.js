@@ -16,7 +16,7 @@ export default class BikeApp extends Component {
                 <br />
                 <a href="https://github.com/TYohoJr/bikeapp2backend" target="_blank" rel="noopener noreferrer">Server Code</a>
                 <br />
-                <img id="bike-app-img" src={require("../BikeApp.jpg")} alt="Bike App" />
+                <img id="bike-app-img" src={require("../project-images/BikeApp.png")} alt="Bike App" />
             </div>
         )
     }
