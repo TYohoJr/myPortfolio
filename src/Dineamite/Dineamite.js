@@ -13,7 +13,9 @@ export default class Dineamite extends Component {
                 <br />
                 <a href="https://github.com/TYohoJr/OurVerySpecialApp-Server" target="_blank" rel="noopener noreferrer">Server Code</a>
                 <br />
-                <img id="dineamite-img" src={require("../project-images/Dineamite.png")} alt="Bike App" />
+                <div id="dineamite-img" >
+                    <img src={require("../project-images/Dineamite.png")} alt="Bike App" />
+                </div>
             </div>
         )
     }

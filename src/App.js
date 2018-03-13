@@ -51,8 +51,8 @@ export default class App extends Component {
     return (
       <div className="App">
         <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} showDineamite={this.showDineamite} />
-        {this.state.pageDescription}
-        {this.state.showProject}
+        <div id="pageDescription-main">{this.state.pageDescription}</div>
+        <div id="showProject-main">{this.state.showProject}</div>
         <footer>
           © Thomas Yoho 2018
         </footer>

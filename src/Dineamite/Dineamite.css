@@ -9,3 +9,7 @@
 #dineamite-div {
     font-family: Georgia;
 }
+
+img {
+    max-width:100%;
+}
