@@ -8,7 +8,7 @@ export default class BikeApp extends Component {
                 <p id="bike-app-info">Bike App was created by a group of 7 people (including myself) during my time at Montana Code School.<br />
                     The user can sign up and enter their work address. After they sign in a map with their current location shows on the screen.<br />
                     The user can then click "Get Me To Work!" to show a route from their current locationto their work. The map has a bike layer on top to promote biking over driving.<br />
-                    Group work finished on 2-23-18 and I make commits periodically</p>
+                    Group work finished on 3-6-18 and I make commits periodically</p>
                 <a href="https://stark-scrubland-94670.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                 <br />
                 <p>(use "test" for both the username and password, or feel free to sign up!)</p>
