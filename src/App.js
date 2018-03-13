@@ -51,10 +51,10 @@ export default class App extends Component {
     return (
       <div className="App">
         <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} showDineamite={this.showDineamite} />
-        <div id="pageDescription-main">{this.state.pageDescription}</div>
-        <div id="showProject-main">{this.state.showProject}</div>
+        <div>{this.state.pageDescription}</div>
+        <div>{this.state.showProject}</div>
         <footer>
-          <div id="footer-contents">
+          <div className="footer-contents">
           © Thomas Yoho 2018
           </div>
         </footer>
