@@ -29,7 +29,9 @@ footer{
 .project-image {
   max-width:100%;
   height:400px;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 .project-info {
