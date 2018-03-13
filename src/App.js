@@ -54,7 +54,9 @@ export default class App extends Component {
         <div id="pageDescription-main">{this.state.pageDescription}</div>
         <div id="showProject-main">{this.state.showProject}</div>
         <footer>
+          <div id="footer-contents">
           © Thomas Yoho 2018
+          </div>
         </footer>
       </div>
     );

@@ -2,10 +2,9 @@
   text-align: center;
   background: linear-gradient(to bottom, rgb(151, 195, 231), rgb(255, 255, 255));
   background-image: url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   height:800px;
-  padding-bottom: 60px;
 }
 
 .App-logo {
@@ -30,15 +29,24 @@
   to { transform: rotate(360deg); }
 }
 
-footer {
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
-  padding: 10px;
-  opacity: .6;
+footer{
+  height:24px;
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    opacity: .6;
 }
 
+#footer-contents {
+  height:24px;
+    width: 1000px;
+    margin:auto;
+}
 /* #pageDescription-main {
   max-width: 100%;
 } */
