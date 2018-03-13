@@ -11,6 +11,7 @@ export default class Dineamite extends Component {
                     <br />
                     <p>(use "test3" for both the username and password, or feel free to sign up!)</p>
                     <a href="https://github.com/TYohoJr/OurVerySpecialApp" target="_blank" rel="noopener noreferrer">Front-End Code</a>
+                    <br/>
                     <a href="https://github.com/TYohoJr/OurVerySpecialApp-Server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
                 <img className="project-image" src={require("../project-images/Dineamite.png")} alt="Bike App" />
