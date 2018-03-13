@@ -44,13 +44,13 @@ footer{
 
 #footer-contents {
   height:24px;
-    width: 1000px;
+    width: 100%;
     margin:auto;
 }
-/* #pageDescription-main {
+#pageDescription-main {
   max-width: 100%;
-} */
+}
 
-/* #showProject-main {
+#showProject-main {
   max-width:100%;
-} */
+}
