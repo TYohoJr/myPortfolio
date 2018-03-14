@@ -43,6 +43,9 @@ export default class Navbar2 extends React.Component {
               <NavItem>
                 <NavLink href="https://github.com/TYohoJr/" target="_noblank">Github</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="https://www.linkedin.com/in/thomas-yoho-6a0224a5/" target="_noblank">LinkedIn</NavLink>
+              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Projects
