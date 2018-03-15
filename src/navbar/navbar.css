@@ -15,3 +15,25 @@
     cursor: pointer;
     color: rgba(27, 27, 36, 0.822);
 }
+
+.nav-item {
+    box-shadow: .5px .5px 1px black;
+    background-color: rgba(54, 54, 54, 0.055)
+}
+
+.nav-item:hover {
+    background-color: rgba(54, 54, 54, 0.123)
+}
+
+.dropdown-menu.show {
+    background-color: rgba(54, 54, 54, 0.055)
+}
+
+button.dropdown-item:hover {
+    background-color: rgba(54, 54, 54, 0.123);
+    color: rgba(27, 27, 36, 0.822);
+}
+
+button.dropdown-item {
+    color: rgba(59, 59, 75, 0.685);
+}
