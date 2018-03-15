@@ -12,7 +12,8 @@ export default class Aboutme extends Component {
                     {/* I completed Montana Code School in 2018.<br /> */}
                     I am currently enrolled at Montana Code School.<br />
                     I have a fundamental knowledge of: <br />JavaScript, HTML, CSS, React, Express, NodeJs, MongoDB, Git/GitHub<br />
-                    My projects in the dropdown above make use of these technologies (inclding the site you're currently on)</p>
+                    My projects in the dropdown above make use of these technologies (inclding the site you're currently on)<br/>
+                    Visit my LinkedIn profile to contact me</p>
             </div>
         )
     }

@@ -41,7 +41,7 @@ export default class App extends Component {
 
   showDineamite() {
     this.setState({
-      pageDescription: <h1>Dine-amite</h1>,
+      pageDescription: <h1>Dine-amite (wip)</h1>,
       showProject: <Dineamite />
       
     })
