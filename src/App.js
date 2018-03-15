@@ -4,6 +4,7 @@ import Navbar2 from "./navbar/navbar.js";
 import BikeApp from "./BikeApp/BikeApp.js";
 import Dineamite from "./Dineamite/Dineamite.js";
 import Aboutme from "./aboutme/aboutme.js";
+import WeatherApp from "./WeatherApp/WeatherApp.js";
 
 export default class App extends Component {
   constructor() {
@@ -11,6 +12,7 @@ export default class App extends Component {
     this.showBikeApp = this.showBikeApp.bind(this);
     this.showDineamite = this.showDineamite.bind(this);
     this.aboutMe = this.aboutMe.bind(this);
+    this.showWeatherApp = this.showWeatherApp.bind(this);
     this.state = {
       showProject: "",
       pageDescription: ""
@@ -47,10 +49,19 @@ export default class App extends Component {
     })
   }
 
+  showWeatherApp() {
+    this.setState({
+      pageDescription: <h1>Weather App (wip)</h1>,
+      showProject: <WeatherApp />
+      
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} showDineamite={this.showDineamite} />
+        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} showDineamite={this.showDineamite} 
+        showWeatherApp={this.showWeatherApp}/>
         <div>{this.state.pageDescription}</div>
         <div>{this.state.showProject}</div>
         <footer>
