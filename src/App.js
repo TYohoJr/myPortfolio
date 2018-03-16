@@ -51,7 +51,7 @@ export default class App extends Component {
 
   showWeatherApp() {
     this.setState({
-      pageDescription: <h1>Weather App (wip)</h1>,
+      pageDescription: <h1>Weather App</h1>,
       showProject: <WeatherApp />
       
     })
