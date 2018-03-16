@@ -6,7 +6,8 @@ export default class WeatherApp extends Component {
         return (
             <div id="weatheapp-div" className="project-div">
                 <div className="project-info">
-                    <p>(TBA)</p>
+                    <p>I created weather app to get a local forecast without all the ads and bloatware. You enter your 5 digit zip code into the input field. 
+                        You then get a table with a current weather report, as well as corresponding images. Beneath that is a table with a short forecast.</p>
                     <a href="https://my-weather-app2.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
                     <a href="https://github.com/TYohoJr/myWeatherApp" target="_blank" rel="noopener noreferrer">Code</a>
