@@ -10,7 +10,8 @@ export default class Dineamite extends Component {
                         They can sign up for daily text alerts that link themto the site, which then has the daily specials for 3 popular lunch places.
                         The user can sign up for each of the 3 individually, stop all text alerts at once, and send a test sms message if they wish.
                         Each location has 3 buttons which can: sign up for text alerts, go to their website, or view reviews.
-                        The second tab has 3 facebook feeds of local music venues, and the third is (placeholder).
+                        The second tab has 3 facebook feeds of local music venues. The third tab has local daily specials based on the day of the week. 
+                        You can click the name of the place to make a map appear giving you directions there from your current location.
                         After signing in a user profile appears in the top left, showing their username, number, and what texts they are currently subscried to.<br/>
                         Group work finished on (placeholder)</p>
                     <a href="https://dine-amite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
