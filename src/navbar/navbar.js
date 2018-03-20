@@ -60,9 +60,9 @@ export default class Navbar2 extends React.Component {
                   <DropdownItem onClick={this.props.showBikeApp}>
                     Bike App
                   </DropdownItem>
-                  {/* <DropdownItem onClick={this.props.showGroceryList}>
+                  <DropdownItem onClick={this.props.showGroceryList}>
                     Grocery List
-                  </DropdownItem> */}
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
