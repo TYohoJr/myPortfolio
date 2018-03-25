@@ -6,6 +6,9 @@ import Dineamite from "./Dineamite/Dineamite.js";
 import Aboutme from "./aboutme/aboutme.js";
 import WeatherApp from "./WeatherApp/WeatherApp.js";
 import GroceryList from "./GroceryList/GroceryList.js";
+import FoodLog from "./FoodLog/FoodLog.js";
+import SiteGenerator from "./SiteGenerator/SiteGenerator.js";
+import BakerySite from "./BakerySite/BakerySite.js";
 
 export default class App extends Component {
   constructor() {
@@ -15,9 +18,12 @@ export default class App extends Component {
     this.aboutMe = this.aboutMe.bind(this);
     this.showWeatherApp = this.showWeatherApp.bind(this);
     this.showGroceryList = this.showGroceryList.bind(this);
+    this.showFoodLog = this.showFoodLog.bind(this);
+    this.showSiteGenerator = this.showSiteGenerator.bind(this);
+    this.showBakerySite = this.showBakerySite.bind(this);
     this.state = {
-      showProject: "",
-      pageDescription: ""
+      showProject: null,
+      pageDescription: null
     }
   }
 
@@ -67,11 +73,37 @@ export default class App extends Component {
     })
   }
 
+  showFoodLog() {
+    this.setState({
+      pageDescription: <h1>Food Log (wip)</h1>,
+      showProject: <FoodLog />
+      
+    })
+  }
+
+  showSiteGenerator() {
+    this.setState({
+      pageDescription: <h1>Site Generator (wip)</h1>,
+      showProject: <SiteGenerator />
+      
+    })
+  }
+
+  showBakerySite() {
+    this.setState({
+      pageDescription: <h1>Bakery Site (wip)</h1>,
+      showProject: <BakerySite />
+      
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} showDineamite={this.showDineamite} 
-        showWeatherApp={this.showWeatherApp} showGroceryList={this.showGroceryList}/>
+        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} 
+        showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp} 
+        showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
+        showSiteGenerator={this.showSiteGenerator} showBakerySite={this.showBakerySite}/>
         <div>{this.state.pageDescription}</div>
         <div>{this.state.showProject}</div>
         <footer>
