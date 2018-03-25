@@ -1,5 +1,4 @@
-#README
-
+<h1>README</h1>
 <h1>My Portfolio</h1>
 
 This is the development enviroment code for my website/portfolio<br/>
@@ -15,12 +14,12 @@ npm install
 ```
 
 <h3>Technologies Used</h3>
-Front-end:<br/>
+<b>Front-end:</b><br/>
     React<br/>
     JavaScript<br/>
     HTML<br/>
     CSS<br/>
-Back-end:<br/>
+<b>Back-end:</b><br/>
     NodeJS<br/>
     ExpressJS
 
