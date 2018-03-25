@@ -12,6 +12,10 @@ To install all the dependencies run
 ```
 npm install
 ```
+Then to run the code locally run
+```
+npm start
+```
 
 <h3>Technologies Used</h3>
 <b>Front-end:</b><br/>
