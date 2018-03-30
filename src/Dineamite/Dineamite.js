@@ -14,10 +14,10 @@ export default class Dineamite extends Component {
                         The third tab has local daily specials based on the day of the week
                         {/*You can click the name of the place to make a map appear giving you directions there from your current location.*/} 
                         . After signing in a user profile appears in the top left, showing their username, number, and what texts they are currently subscried to.<br/>
-                        Group work will finish on 3-28-18</p>
+                        Group work finished on 3-28-18</p>
                     <a href="https://dine-amite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
-                    <p>(use "test3" for both the username and password, or feel free to sign up!)<br/>
+                    <p>(use "test1" for both the username and password, or feel free to sign up!)<br/>
                     Please note that due to using the free version of Twilio, only numbers that are manually verified can recieve texts :(</p>
                     <a href="https://github.com/TYohoJr/OurVerySpecialApp" target="_blank" rel="noopener noreferrer">Front-End Code</a>
                     <br />
