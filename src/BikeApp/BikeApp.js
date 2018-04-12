@@ -6,7 +6,7 @@ export default class BikeApp extends Component {
         return (
             <div id="bike-app-div" className="project-div">
                 <div className="project-info">
-                    <p >Bike App was created during my time at Montana Code School.
+                    <p >Bike App was created early on during my time at Montana Code School.
                         The user can sign up and enter their work address. Their password is encrypted and upon login they are assigned a token which is stored locally on the client's end.
                         After they sign in a map with their current location shows on the screen.
                         The user can then click "Get Me To Work!" to show a route from their current location to their work. The map has a bike layer on top to promote biking over driving.

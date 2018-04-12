@@ -7,7 +7,6 @@ import Aboutme from "./aboutme/aboutme.js";
 import WeatherApp from "./WeatherApp/WeatherApp.js";
 import GroceryList from "./GroceryList/GroceryList.js";
 import FoodLog from "./FoodLog/FoodLog.js";
-import SiteGenerator from "./SiteGenerator/SiteGenerator.js";
 import BakerySite from "./BakerySite/BakerySite.js";
 
 export default class App extends Component {
@@ -19,7 +18,6 @@ export default class App extends Component {
     this.showWeatherApp = this.showWeatherApp.bind(this);
     this.showGroceryList = this.showGroceryList.bind(this);
     this.showFoodLog = this.showFoodLog.bind(this);
-    this.showSiteGenerator = this.showSiteGenerator.bind(this);
     this.showBakerySite = this.showBakerySite.bind(this);
     this.state = {
       showProject: null,
@@ -81,14 +79,6 @@ export default class App extends Component {
     })
   }
 
-  showSiteGenerator() {
-    this.setState({
-      pageDescription: <h1>Site Generator (wip)</h1>,
-      showProject: <SiteGenerator />
-      
-    })
-  }
-
   showBakerySite() {
     this.setState({
       pageDescription: <h1>Bakery Site (wip)</h1>,
@@ -103,7 +93,7 @@ export default class App extends Component {
         <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} 
         showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp} 
         showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
-        showSiteGenerator={this.showSiteGenerator} showBakerySite={this.showBakerySite}/>
+        showBakerySite={this.showBakerySite}/>
         <div>{this.state.pageDescription}</div>
         <div>{this.state.showProject}</div>
         <footer>
