@@ -11,7 +11,7 @@ export default class Aboutme extends Component {
                     Im an aspiring programmer looking for the right company to start as a junior dev.<br />
                     {/* I completed Montana Code School in 2018.<br /> */}
                     I am currently enrolled at Montana Code School.<br />
-                    I have a fundamental knowledge of: <br />JavaScript, HTML, CSS, React, Redux, Express, NodeJs, MongoDB, SQL/elephantSQL, Git/GitHub and various API's<br />
+                    I have a fundamental knowledge of: <br />JavaScript, HTML, CSS, React, Redux, Express, NodeJs, MongoDB, postgreSQL, Git/GitHub and various API's<br />
                     My projects in the dropdown above make use of these technologies (inclding the site you're currently on)<br/>
                     Visit my LinkedIn profile to contact me</p>
             </div>

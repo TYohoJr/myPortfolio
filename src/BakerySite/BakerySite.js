@@ -10,7 +10,7 @@ export default class BakerySite extends Component {
                     The navbar features basic information about the business. The home page features a map with an input field for a potential customer to enter their address and get distance as well as directions from them to the business location.
                     This is made using the Google Maps API. The pricing page allows the user to pick a variety of options for a potential cake in order to get a price estimate. This features modals that includes things such as a size calculator, the same directions component reused, as well as a reset button to start over.
                     The order page features a form to fill out to place an order for a cake. The order placement is contigent on a successful deposit of 10 dollars. This deposit is made using the paypal API. Upon a successful deposit the form is submitted and saved into a SQL database (elephantSQL).
-                    The final page displays examples of previous cakes. Themain technologies used are React, Redux, Node, Express, SQL/elephantSQL, Google API, PayPal API, and ReactStrap.</p>
+                    The final page displays examples of previous cakes. Themain technologies used are React, Redux, Node, Express, postgreSQL, Google API, PayPal API, and ReactStrap.</p>
                     <a href="https://bakery-site.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
                     <a href="https://github.com/TYohoJr/bakerySite" target="_blank" rel="noopener noreferrer">Front-End Code</a>
