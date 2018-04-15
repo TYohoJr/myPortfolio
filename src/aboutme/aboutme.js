@@ -10,7 +10,7 @@ export default class Aboutme extends Component {
                 <p id="about-me-txt">I'm 24 years old and live in Naperville, IL.<br />
                     Im an aspiring programmer looking for the right company to start as a junior dev.<br />
                     {/* I completed Montana Code School in 2018.<br /> */}
-                    I am currently enrolled at Montana Code School.<br />
+                    I am currently enrolled at Montana Code School and will finish at the end of April 2018.<br />
                     I have a fundamental knowledge of: <br />JavaScript, HTML, CSS, React, Redux, Express, NodeJs, MongoDB, postgreSQL, Git/GitHub and various API's<br />
                     My projects in the dropdown above make use of these technologies (inclding the site you're currently on)<br/>
                     Visit my LinkedIn profile to contact me</p>
