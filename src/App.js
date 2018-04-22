@@ -81,7 +81,7 @@ export default class App extends Component {
 
   showBakerySite() {
     this.setState({
-      pageDescription: <h1>Bakery Site (wip)</h1>,
+      pageDescription: <h1>Bakery Site</h1>,
       showProject: <BakerySite />
       
     })
