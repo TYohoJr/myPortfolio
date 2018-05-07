@@ -37,3 +37,11 @@ button.dropdown-item:hover {
 button.dropdown-item {
     color: rgba(59, 59, 75, 0.685);
 }
+
+.dropdown-menu.show {
+    text-align: center
+}
+
+.ml-auto {
+    margin-right: 50px;
+}

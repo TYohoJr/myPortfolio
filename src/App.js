@@ -73,7 +73,7 @@ export default class App extends Component {
 
   showFoodLog() {
     this.setState({
-      pageDescription: <h1>Food Log (wip)</h1>,
+      pageDescription: <h1>Carb Tracker (wip)</h1>,
       showProject: <FoodLog />
       
     })

@@ -6,7 +6,7 @@ export default class FoodLog extends Component {
         return (
             <div id="foodlog-div" className="project-div">
                 <div className="project-info">
-                    <p>Food Log was created to replicate food tracking apps, such as MyFitnessPal, but with less extra features that i'm never going to use. As well as having no advertisements without the need to pay for a subscription.
+                    <p>Carb Tracker was created to replicate food tracking apps, such as MyFitnessPal, but with specific focus on helping people on a carb diet. As well as having no advertisements without the need to pay for a subscription.
                         The front end is built using React and Redux, the back end is built from Express, and the data is being managed through a postgreSQL database. The app also makes use of axios for http calls and the Nutrionix API.
                         Security is maintained using Bcrypt and JsonWebTokens.
                     </p>
