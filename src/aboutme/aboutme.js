@@ -7,7 +7,7 @@ export default class Aboutme extends Component {
             <div id="about-me-div">
                 <h1 id="about-me-header">Hello! My name is Thomas Yoho <small><sup>:)</sup></small></h1>
                 <img id="about-me-pic" src={require("../project-images/fb-pic.jpg")} alt="me" />
-                <p id="about-me-txt">I'm 24 years old and live in Naperville, IL.<br />
+                <p id="about-me-txt">I'm 25 years old and live in Naperville, IL.<br />
                     Im an aspiring programmer looking for the right opportunity to start my career.<br />
                     {/* I completed Montana Code School in 2018.<br /> */}
                     I completed <a href="https://montanacodeschool.com/" target="_blank" rel="noopener noreferrer">Montana Code School</a> in April 2018.<br />
