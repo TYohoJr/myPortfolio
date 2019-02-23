@@ -9,13 +9,13 @@ export default class EyeTracker extends Component {
                     <p>
                         Test
                     </p>
-                    <a href="https://food-log1.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+                    <a href="https://eye-tracker-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
                     <a href="https://github.com/TYohoJr/eyeTracker" target="_blank" rel="noopener noreferrer">Front-End Code</a>
                     <br />
                     <a href="https://github.com/TYohoJr/eyeTracker-server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/FoodLog.png")} alt="Eye Tracker" />
+                <img className="project-image" src={require("../project-images/EyeTracker.png")} alt="Eye Tracker" />
             </div>
         )
     }
