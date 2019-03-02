@@ -7,9 +7,9 @@ export default class EyeTracker extends Component {
             <div id="eyetracker-div" className="project-div">
                 <div className="project-info">
                     <p>
-                        I created this Eye Tracker app to supplement myself during post cervical neck surgery. My neurologist has multiple eye tracking exercises through an app that is currently only available on iOS.
-                        Since I have Android instead of Apple I decided to recreate the app myself. I personally use this app every day during my eye/balance exercises. The basic idea is to focus on the center dot and then quickly and fluently jump your eyes to the flashing dot.
-                        I've a couple customization options to better fine tune the exercise.
+                        I created this Eye Tracker app to supplement myself during post cervical neck surgery. My neurologist has multiple eye tracking exercises through an app that is currently only available on iOS (Focus Builder).
+                        Since I have Android instead of Apple I decided to recreate the app myself. I personally use this app every day during my eye/balance exercises. The exercises vary based on the stimuation the patient needs. 
+                        I'm currently working on adding/re-creating every exercise that is available in the Focus Builder app. I'm adding as many customizable options as possible to better fine tune each exercise to the patients needs/wants.
                     </p>
                     <a href="https://eye-tracker-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
