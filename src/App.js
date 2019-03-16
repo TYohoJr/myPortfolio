@@ -9,6 +9,7 @@ import GroceryList from "./GroceryList/GroceryList.js";
 import FoodLog from "./FoodLog/FoodLog.js";
 import BakerySite from "./BakerySite/BakerySite.js";
 import EyeTracker from "./EyeTracker/EyeTracker.js";
+import axios from 'axios';
 
 export default class App extends Component {
   constructor() {
@@ -28,6 +29,9 @@ export default class App extends Component {
   }
 
   componentDidMount() {
+    axios.post('/siteVisit', { date: new Date().toLocaleString() }).then((result) => {
+      console.log(result)
+    })
     this.aboutMe();
   }
 
@@ -53,7 +57,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Dine-amite</h1>,
       showProject: <Dineamite />
-      
+
     })
   }
 
@@ -61,7 +65,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Weather App</h1>,
       showProject: <WeatherApp />
-      
+
     })
   }
 
@@ -69,7 +73,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Grocery List (wip)</h1>,
       showProject: <GroceryList />
-      
+
     })
   }
 
@@ -77,7 +81,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Carb Tracker (wip)</h1>,
       showProject: <FoodLog />
-      
+
     })
   }
 
@@ -85,7 +89,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Bakery Site</h1>,
       showProject: <BakerySite />
-      
+
     })
   }
 
@@ -93,22 +97,22 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Eye Tracker</h1>,
       showProject: <EyeTracker />
-      
+
     })
   }
 
   render() {
     return (
       <div className="App">
-        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} 
-        showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp} 
-        showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
-        showBakerySite={this.showBakerySite} showEyeTracker={this.showEyeTracker}/>
+        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp}
+          showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp}
+          showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
+          showBakerySite={this.showBakerySite} showEyeTracker={this.showEyeTracker} />
         <div>{this.state.pageDescription}</div>
         <div>{this.state.showProject}</div>
         <footer>
           <div className="footer-contents">
-          © Thomas Yoho 2018
+            © Thomas Yoho 2018
           </div>
         </footer>
       </div>
