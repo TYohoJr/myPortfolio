@@ -9,6 +9,7 @@ import GroceryList from "./Projects/GroceryList/GroceryList.js";
 import FoodLog from "./Projects/FoodLog/FoodLog.js";
 import BakerySite from "./Projects/BakerySite/BakerySite.js";
 import EyeTracker from "./Projects/EyeTracker/EyeTracker.js";
+import WeightTracker from "./Projects/WeightTracker/WeightTracker.js";
 
 export default class App extends Component {
   constructor() {
@@ -21,6 +22,7 @@ export default class App extends Component {
     this.showFoodLog = this.showFoodLog.bind(this);
     this.showBakerySite = this.showBakerySite.bind(this);
     this.showEyeTracker = this.showEyeTracker.bind(this);
+    this.showWeightTracker = this.showWeightTracker.bind(this);
     this.state = {
       showProject: null,
       pageDescription: null
@@ -53,7 +55,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Dine-amite</h1>,
       showProject: <Dineamite />
-      
+
     })
   }
 
@@ -61,7 +63,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Weather App</h1>,
       showProject: <WeatherApp />
-      
+
     })
   }
 
@@ -69,7 +71,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Grocery List (wip)</h1>,
       showProject: <GroceryList />
-      
+
     })
   }
 
@@ -77,7 +79,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Carb Tracker (wip)</h1>,
       showProject: <FoodLog />
-      
+
     })
   }
 
@@ -85,7 +87,7 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Bakery Site</h1>,
       showProject: <BakerySite />
-      
+
     })
   }
 
@@ -93,22 +95,31 @@ export default class App extends Component {
     this.setState({
       pageDescription: <h1>Eye Tracker</h1>,
       showProject: <EyeTracker />
-      
+
+    })
+  }
+
+  showWeightTracker() {
+    this.setState({
+      pageDescription: <h1>Weight Tracker</h1>,
+      showProject: <WeightTracker />
+
     })
   }
 
   render() {
     return (
       <div className="App">
-        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp} 
-        showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp} 
-        showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
-        showBakerySite={this.showBakerySite} showEyeTracker={this.showEyeTracker}/>
+        <Navbar2 aboutMe={this.aboutMe} showBikeApp={this.showBikeApp}
+          showDineamite={this.showDineamite} showWeatherApp={this.showWeatherApp}
+          showGroceryList={this.showGroceryList} showFoodLog={this.showFoodLog}
+          showBakerySite={this.showBakerySite} showEyeTracker={this.showEyeTracker}
+          showWeightTracker={this.showWeightTracker} />
         <div>{this.state.pageDescription}</div>
         <div>{this.state.showProject}</div>
         <footer>
           <div className="footer-contents">
-          © Thomas Yoho 2018
+            © Thomas Yoho 2018
           </div>
         </footer>
       </div>

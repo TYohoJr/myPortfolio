@@ -60,6 +60,10 @@ export default class Navbar2 extends React.Component {
                   <DropdownItem onClick={this.props.showDineamite}>
                     Dine-amite
                   </DropdownItem>
+                  <DropdownItem onClick={this.props.showWeightTracker}>
+                    <div>Weight Tracker</div>
+                    <div>(Android App)</div>
+                  </DropdownItem>
                   {/* <DropdownItem onClick={this.props.showWeatherApp}>
                     Weather App
                   </DropdownItem> */}
