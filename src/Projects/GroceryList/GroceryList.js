@@ -17,7 +17,7 @@ export default class GroceryList extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/grocery-list-server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/GroceryList.png")} alt="Grocery List" />
+                <img className="project-image" src={require("../../project-images/GroceryList.png")} alt="Grocery List" />
             </div>
         )
     }

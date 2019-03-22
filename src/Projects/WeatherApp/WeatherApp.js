@@ -13,7 +13,7 @@ export default class WeatherApp extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/myWeatherApp" target="_blank" rel="noopener noreferrer">Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/WeatherApp.png")} alt="Bike App" />
+                <img className="project-image" src={require("../../project-images/WeatherApp.png")} alt="Bike App" />
             </div>
         )
     }

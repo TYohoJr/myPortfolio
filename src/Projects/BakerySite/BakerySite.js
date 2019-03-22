@@ -17,7 +17,7 @@ export default class BakerySite extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/bakerySite-server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/BakerySite.png")} alt="Bakery Site" />
+                <img className="project-image" src={require("../../project-images/BakerySite.png")} alt="Bakery Site" />
             </div>
         )
     }

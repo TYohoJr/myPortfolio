@@ -17,7 +17,7 @@ export default class FoodLog extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/food-log-server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/FoodLog.png")} alt="Food Log" />
+                <img className="project-image" src={require("../../project-images/FoodLog.png")} alt="Food Log" />
             </div>
         )
     }

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar2 from "./navbar/navbar.js";
-import BikeApp from "./BikeApp/BikeApp.js";
-import Dineamite from "./Dineamite/Dineamite.js";
+import BikeApp from "./Projects/BikeApp/BikeApp.js"
+import Dineamite from "./Projects/Dineamite/Dineamite.js"
 import Aboutme from "./aboutme/aboutme.js";
-import WeatherApp from "./WeatherApp/WeatherApp.js";
-import GroceryList from "./GroceryList/GroceryList.js";
-import FoodLog from "./FoodLog/FoodLog.js";
-import BakerySite from "./BakerySite/BakerySite.js";
-import EyeTracker from "./EyeTracker/EyeTracker.js";
+import WeatherApp from "./Projects/WeatherApp/WeatherApp.js";
+import GroceryList from "./Projects/GroceryList/GroceryList.js";
+import FoodLog from "./Projects/FoodLog/FoodLog.js";
+import BakerySite from "./Projects/BakerySite/BakerySite.js";
+import EyeTracker from "./Projects/EyeTracker/EyeTracker.js";
 
 export default class App extends Component {
   constructor() {

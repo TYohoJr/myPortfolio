@@ -17,7 +17,7 @@ export default class EyeTracker extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/eyeTracker-server" target="_blank" rel="noopener noreferrer">Back-End Code</a>
                 </div>
-                <img className="project-image" src={require("../project-images/EyeTracker.png")} alt="Eye Tracker" />
+                <img className="project-image" src={require("../../project-images/EyeTracker.png")} alt="Eye Tracker" />
             </div>
         )
     }
