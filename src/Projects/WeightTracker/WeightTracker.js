@@ -17,7 +17,9 @@ export default class WeightTracker extends Component {
                     <br />
                     <a href="https://github.com/TYohoJr/weightAppAPK" target="_blank" rel="noopener noreferrer">Code on GitHub</a>
                 </div>
-                <img className="project-image" src={require("../../project-images/WeightTracker.png")} alt="Eye Tracker" />
+                <img className="project-image" src={require("../../project-images/WeightTracker1.png")} alt="Eye Tracker" />
+                <img className="project-image" src={require("../../project-images/WeightTracker2.png")} alt="Eye Tracker" />
+                <img className="project-image" src={require("../../project-images/WeightTracker3.png")} alt="Eye Tracker" />
             </div>
         )
     }

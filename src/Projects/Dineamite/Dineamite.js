@@ -14,8 +14,7 @@ export default class Dineamite extends Component {
                         The second tab has 3 facebook feeds of local music venues. The user can also subscribe to daily texts for these venues.
                         The third tab has local daily specials based on the day of the week
                         {/*You can click the name of the place to make a map appear giving you directions there from your current location.*/}
-                        . After signing in a user profile appears in the top left, showing their username, number, and what texts they are currently subscried to.<br />
-                        Group work finished on 3-28-18</p>
+                        . After signing in a user profile appears in the top left, showing their username, number, and what texts they are currently subscried to.</p>
                     <a href="https://dine-amite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
                     <br />
                     <p>(use "test1" for both the username and password, or feel free to sign up!)<br />
