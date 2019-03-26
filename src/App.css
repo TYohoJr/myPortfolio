@@ -1,29 +1,20 @@
 .App {
   text-align: center;
-  background: linear-gradient(to bottom, rgb(64, 169, 255), rgb(116, 141, 255));
   background-image: url("https://images.pexels.com/photos/37728/pexels-photo-37728.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-repeat: repeat-y;
   background-size: cover;
-  height:100vh;
+  min-height: 100vh;
 }
 
 footer{
   height:24px;
   width: 100%;
-  background-image: none;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-position: 0% 0%;
-  position: fixed;
-  bottom: 0pt;
-  left: 0pt;
   opacity: .6;
 }
 
 .footer-contents {
-  height:24px;
   width: 100%;
-  margin:auto;
+  margin:0;
 }
 
 .project-image {
